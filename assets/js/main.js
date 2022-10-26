@@ -9,9 +9,16 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            message: 'il mio primo messaggio',
+            message: 'Il mio primo messaggio',
+            boxAttributes: {
+                class: 'container bg-dark mt-5'
+            },
+            titleAttributes: {
+                class: 'text-white p-2'
+            },
             imgAttributes: {
-                src: 'https://picsum.photos/200/300'
+                src: 'https://picsum.photos/500/300',
+                class: 'rounded-3 mb-2'
             }
         }
     }

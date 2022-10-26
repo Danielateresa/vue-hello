@@ -23,11 +23,13 @@
 
 
         <div id="app">
-            <h1>
-                {{message}}
-            </h1>
+            <div v-bind="boxAttributes">
+                <h1 v-bind="titleAttributes">
+                    {{message}}
+                </h1>
 
-            <img v-bind="imgAttributes">
+                <img v-bind="imgAttributes">
+            </div>
         </div>
 
 
