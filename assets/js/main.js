@@ -10,6 +10,9 @@ createApp({
     data() {
         return {
             message: 'il mio primo messaggio',
+            imgAttributes: {
+                src: 'https://picsum.photos/200/300'
+            }
         }
     }
 }).mount('#app');
